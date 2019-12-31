@@ -10,6 +10,22 @@ width: 60%;
 height: 100%;
 background-color: rgb(206, 206, 199); 
 }
+.mains{
+    z-index: 5;
+}
+.texts{
+    font-size: 2000%;
+    font-weight: bold;
+    color: white;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    z-index: 6;
+    left: 1320px;
+    position: fixed;
+   
+    top: 230px;
+                  /*position:fixed; is regulary for layout should be!*/
+}
 .circle{
     position: fixed;
 top: 0;
@@ -29,4 +45,5 @@ top: 100px;
 margin-left:820px;
 z-index: 4;
 position: absolute;
+
 }
